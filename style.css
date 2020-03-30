@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn{
+    display: flex;
+    margin: 0px auto !important;
+}
+
+.name{
+    font-size: 4rem;
+}
+
+.homepage-block{
+    display: table;
+    background-color: green;
+    margin: 0 auto;
+}
+
+
+#icons{
+    list-style-type: none;
+    display: flex;
+    background-color: red;
+    margin: 0px auto;
+    justify-content: center;
+    padding: 0px;
+}
+
+.icon{
+    background-color: yellow;
+    margin: 0px 2rem;
+}
+
+.fab{
+    font-size: 3rem;
+}
