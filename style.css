@@ -108,7 +108,7 @@ span{
 
 @media (max-height: 425px) {
     #myContainer{
-        zoom: 0.7;
-        -moz-transform: scale(0.7);
+        zoom: 0.68;
+        -moz-transform: scale(0.68);
     }
 }
