@@ -3,6 +3,12 @@ body{
     padding: 0px;
 }
 
+.s1{
+    background-image: url(img/coding.jpg);
+    background-size: cover;
+
+}
+
 .btn{
     display: flex;
     margin: 0px auto !important;
@@ -10,11 +16,11 @@ body{
 
 .name{
     font-size: 4rem;
+    color: white;
 }
 
-.homepage-block{
+.block{
     display: table;
-    background-color: green;
     margin: 0 auto;
 }
 
@@ -22,17 +28,54 @@ body{
 #icons{
     list-style-type: none;
     display: flex;
-    background-color: red;
     margin: 0px auto;
     justify-content: center;
     padding: 0px;
 }
 
+hr{
+    height: 2px;
+    background-color: white;
+}
+
 .icon{
-    background-color: yellow;
     margin: 0px 2rem;
+    color: white;
 }
 
 .fab{
     font-size: 3rem;
+}
+
+span{
+    background-color: white !important;
+}
+
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-gap: 10px;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 10px;
+
+}
+
+.card{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    position: relative;
+}
+
+.card-caption{
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+
+.title{
+    text-align: center;
 }
