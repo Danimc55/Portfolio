@@ -11,9 +11,13 @@ body{
     background-size: cover;
 }
 
-.s2{
+.s2, .s3{
     background-color: #2d3436;
     background-size: cover;
+}
+
+.about-me-block{
+    max-width: 50%;
 }
 
 .btn{
@@ -97,6 +101,10 @@ span{
 .box-caption-text{
     color: white;
     text-align: center;
+}
+
+h3{
+    color: white;
 }
 
 @media (max-width: 1220px) {
