@@ -153,6 +153,13 @@ h3{
         -moz-transform: scale(0.8);
         transform: scale(0.8);
     }
+
+    .about-me-block{
+        zoom: 0.90;
+        -moz-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
 }
 
 @media (max-height: 425px) {
