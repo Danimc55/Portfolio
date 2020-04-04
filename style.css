@@ -25,10 +25,6 @@ body{
     max-width: 50%;
 }
 
-/*
-i dont understand
-*/
-
 .btn{
     display: flex;
     margin: 0px auto !important;
@@ -144,6 +140,10 @@ h3{
 @media (max-width: 400px) {
     .wraper{
         grid-template-columns: repeat(1, 300px);
+    }
+
+    .firstpage{
+        width: 90vw;
     }
 }
 
